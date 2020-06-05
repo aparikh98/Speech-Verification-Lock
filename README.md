@@ -10,4 +10,3 @@ Each section is converted to the frequency domain using FFT
 Store these known cepstrum coefficients in a dictionary
 
 Then when a user tries to unlock it, we compute these coefficients and match it to the closest stored signal (basically Euclidean distance between the two vectors)
-Here are a few examples of the algorithm at work:
